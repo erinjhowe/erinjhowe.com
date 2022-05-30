@@ -217,8 +217,7 @@ h2{
 }
 
 span{
-    color:red;
-    font-size: 
+    color:red; 
 }
 
 h3{
@@ -249,11 +248,16 @@ nav li a:hover{
 
 .header{
     width: 100%;
-    background-color: #FFFCE0;
+    background-color: #fefdf2;
 }
 .header-background{
     width: 100%;
     background-color: #fefdf2;
+}
+
+.logo{
+    max-height:105px;
+    margin-top: 20px;
 }
 /************* About ********************************/
 
@@ -271,7 +275,7 @@ nav li a:hover{
 }
 
 .about-background{
-    background-color: #FFFCE0;;
+    background-color: #fefdf2;
     padding: 40px 0;
     font-size: 1.4em;
     margin: 100px 0 70px 0;
@@ -286,31 +290,32 @@ nav li a:hover{
 }
 
 
-#about a:visited{
+a.cv:visited{
     color:#FFFCE0;
     text-decoration: none; 
 }
-#about a:hover{
+a.cv:hover{
     background-color:#005959;
     text-decoration: none;
     color:#fffce0;
  
 }
 
+
 /************ Portfolio ************************/
 
 .portfolio-background{
     width: 100%;
     padding: 20px 0;
-    background-color:#FFFCE0;
-    color:#FFFCE0;
+    background-color:#fefdf2;
+    color:#fefdf2;
     font-size: 1.4em;
 
 }
 
 .portfolio-piece{
     color:#333;
-    background-color: #FFFCE0;
+    background-color: #fefdf2;
 
 }
 
@@ -330,14 +335,14 @@ nav li a:hover{
 
 .contact-background{
     margin:100px 0;
-    background-color: #FFFCE0;
+    background-color: #fefdf2;
 }
 
 /********* Footer ****************************/
 
 .footer{    
     width: 100%;
-    background-color: #FFFCE0;
+    background-color: #fefdf2;
     text-align: center;
     padding: 40px;
     font-size: 1.2em; 
@@ -379,10 +384,6 @@ nav li a:hover{
 
 .design-nav li:nth-of-type(1){
     margin-left:-40px;
-}
-
-.design-nav ul{
-   
 }
 
 .design-nav a{

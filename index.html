@@ -7,12 +7,13 @@
         <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
         <meta name="description" content="Personal portfolio website for Erin J Howe, web designer and developer in Edmonton Alberta">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">      
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -25,10 +26,12 @@
                 <div class="container">
                     <div class="row">
                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <h1 class="hidden">Erin J Howe</h1>
-                            <figure>
-                                <a href="index.html"><img class="img-responsive center-block" src="img/ejh2.png" alt="erin j howe web and graphic design"></a>
-                            </figure>
+                           <div class="logo-wrap">
+                            <h1 class="hidden">Erin J Howe</h1>
+                                <figure>
+                                    <a href="/"><img class="img-responsive logo" src="img/ejh2.png" alt="erin j howe web and graphic design"></a>
+                                </figure>
+                            </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
                             <nav>
@@ -55,13 +58,14 @@
                         <h1>Erin J Howe</h1>
                         <div class="underline"></div>
                         <h2>Web Design, Web Development and Graphic Design.</h2>
-                        <p>I want to help people reach their online targets, big or small.</p>
+                        <p>I am currently a junior web developer for <a href="https://www.visioncreativeinc.com/" target="_blank">Vision Creative Inc</a>, I teach senior technology classes and I am always on the lookout for interesting freelance opportunities. I want to help people reach their online targets, big or small.
+                        </p>
                         <h3>About Me</h3>
-                        <p>I am creative, passionate and dedicated to the details. I know it’s the little things that add up to build the final product. Look after the details and the rest will follow.</p>
-                        <p>Two years ago, I decided to build on my fine arts education by becoming a Digital Media and IT student at Northern Alberta Institute of Technology. Studying web design and development would give me practical skills to complement my visual knowledge, allow me to help people connect in an online world.</p>
-                        <p>It was a good decision.  I love it.</p>
+                        <p>I am creative, passionate and dedicated to the details. I know it’s all the little things that build the final product, look after the details and the rest will follow.</p>
+                        <p>In 2015 I decided to build on my Bachelor of Fine Arts education by becoming a Digital Media and IT student at the Northern Alberta Institute of Technology.</p>
+                        <p>It was a good decision.  I love web development.</p>
                         <p>Finding creative solutions to problems is fun and rewarding. I’m always amazed at how quickly a project can transform. As a web designer and developer, I can help people communicate. A well-designed website can share stories, create communities and expand businesses.  I see the value in that.</p>
-                        <a class="cv" href="ErinJHowe-Resume.pdf" target="blank">My Resume</a>
+                        <a class="cv" href="https://storageapi.fleek.co/506b4bf0-0dc7-4ef1-940b-b8fe8d2258a6-bucket/ErinJHowe-Resume.pdf" target="blank">My Resume</a>
                     </div>
                 </div>
             </div>
@@ -79,17 +83,15 @@
             <div class="portfolio-background" id="portfolio">
                 <div class="container">
                     <div class="row margin">
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 portfolio-piece">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 portfolio-piece no-hover">
                         <h3>Dunster Schoolhouse</h3>
-                        <a href="http://dunsterschoolhouse.ca" >
                         <div class="portfolio">  
-                            <div class="overlay"><h3>Visit Site</h3></div>
-                        <img class="img-responsive center-block" src="img/schoolhouse.png"></div></a>
+                        <img class="img-responsive center-block" src="img/schoolhouse.png"></div>
                             <p>I developed and designed this WordPress website for a rural community center in Dunster, British Columbia. Working with a board of volunteers I built a custom theme for their specific needs and aesthetic. </p>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 portfolio-piece">
                             <h3>Trails</h3>
-                            <a href="https://trails.erinjhowe.com" >
+                            <a href="https://trails.erinjhowe.com" target="_bank" >
                             <div class="portfolio">
                                 <div class="overlay"><h3>Visit Demo</h3></div>
                             <img class="img-responsive center-block" src="img/trails2.png"></div></a>
@@ -97,7 +99,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 portfolio-piece">
                             <h3>Albatross Facts</h3>
-                            <a href="http://albatross-facts.xyz" >
+                            <a href="http://albatross-facts.xyz" target="_blank">
                             <div class="portfolio">
                                 <div class="overlay"><h3>Visit Demo</h3></div>
                             <img class="img-responsive center-block" src="img/albatross-facts.png"></div></a>
@@ -107,7 +109,7 @@
                     <div class="row margin">
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 portfolio-piece">
                             <h3>Mustangs Track Club</h3>
-                            <a href="http://mustangstrackclub.com/">
+                            <a href="http://mustangstrackclub.com/" target="blank">
                             <div class="portfolio">
                                 <div class="overlay"><h3>Visit Site</h3></div> 
                             <img class="img-responsive center-block" src="img/mustangs.png"></div></a>
@@ -115,7 +117,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 portfolio-piece">
                             <h3>Graphic Design</h3>
-                            <a href="graphic-design.html">
+                            <a href="/graphic-design">
                             <div class="portfolio">
                                 <div class="overlay"><h3>See Work</h3></div> 
                             <img class="img-responsive center-block" src="img/rvmf.png"></div></a>
@@ -123,7 +125,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 portfolio-piece">
                             <h3>Photography</h3>
-                            <a href="photography.html">
+                            <a href="/photography">
                             <div class="portfolio">
                                 <div class="overlay"><h3>See Work</h3></div> 
                             <img class="img-responsive center-block" src="img/photo.png"></div></a>
@@ -154,7 +156,7 @@
                 <div class="row">
                         <div class="col-sm-2 col-md-4 col-lg-4"></div>
                         <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4 footer-content">
-                            <p>Erin J Howe | &copy; 2016 </p>
+                            <p>Erin J Howe | &copy; 2018 </p>
                         </div>
                         <div class="col-sm-2 col-md-4 col-lg-4"></div>
                 </div>
